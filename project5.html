@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="project5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="location" placeholder="Enter location">
+        <button onclick="fetchWeather()">Get Weather</button>
+        <button onclick="getCurrentLocation()">Use Current Location</button>
+        <div id="weather">
+            <h2 id="city"></h2>
+            <p id="description"></p>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+        </div>
+    </div>
+
+    <script src="project5.js"></script>
+</body>
+</html>
